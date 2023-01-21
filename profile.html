@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/master.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <title>Dashboard</title>
+</head>
+<body>
+    <div class="page">
+        <!-- Static SideBar -->
+        <div class="sidebar">
+            <h3>Joethon</h3>
+            <ul>
+                <li>
+                    <a href="index.html">
+                        <i class="fa-regular fa-chart-bar fa-fw"></i>
+                        <span>Dashboard</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="settings.html">
+                        <i class="fa-solid fa-gear fa-fw"></i>
+                        <span>Settings</span>
+                    </a>
+                </li>
+                <li class="active">
+                    <a href="profile.html">
+                        <i class="fa-regular fa-user fa-fw"></i>
+                        <span>Profile</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="projects.html">
+                        <i class="fa-solid fa-diagram-project fa-fw"></i>
+                        <span>Projects</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="courses.html">
+                        <i class="fa-solid fa-graduation-cap fa-fw"></i>
+                        <span>Courses</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="friends.html">
+                        <i class="fa-regular fa-circle-user fa-fw"></i>
+                        <span>Friends</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="files.html">
+                        <i class="fa-regular fa-file fa-fw"></i>
+                        <span>Files</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="plans.html">
+                        <i class="fa-regular fa-credit-card fa-fw"></i>
+                        <span>Plans</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <!-- Content -->
+        <div class="content">
+            <!-- Start Header -->
+            <div class="header">
+                <div class="search"><input type="text" placeholder="Type A Keyword"></div>
+                
+                <div class="profile-icons">
+                    <i class="fa-regular fa-bell fa-lg"></i>
+                    <img src="imgs/avatar.png" alt="">
+                </div> 
+            </div>
+            <!-- End Header -->
+            <div class="dashboard">
+                <h1>Profile</h1>
+                <div class="container-profile mb-20">
+                    <!-- Start Profile info-->
+                    <div class="card p-info">
+                        <div class="v-info">
+                            <img src="imgs/avatar.png" alt="">
+                            <h3 class="title">George Zakhary</h3>
+                            <h5 class="sub-title">Level 20</h5>
+                            <div class="bar">
+                                <span></span>
+                            </div>
+                            <div class="rate">
+                                <i class="fa-solid fa-star c-orange fs-13"></i>
+                                <i class="fa-solid fa-star c-orange fs-13"></i>
+                                <i class="fa-solid fa-star c-orange fs-13"></i>
+                                <i class="fa-solid fa-star c-orange fs-13"></i>
+                                <i class="fa-solid fa-star c-orange fs-13"></i>
+                            </div>
+                            <span class="sub-title">550 Rating</span>
+                        </div>
+
+                        <div class="w-container">
+                            <div class="w-info">
+                                <h3 class="sub-title mw-250">General Information</h3>
+                                <h3 class="sub-title mw-250">Full Name: <span class="title">George Zakhary</span></h3>
+                                <h3 class="sub-title  mw-250">Gender: <span class="title">Male</span></h3>
+                                <h3 class="sub-title  mw-250">Country: <span class="title">Egypt</span></h3>
+                                <div class="  mw-250">
+                                    <input type="checkbox" id="check">
+                                    <label for="check"><div class="check"></div></label>
+                                </div>
+                            </div>
+                            <div class="w-info">
+                                <h3 class="sub-title mw-250">Personal Information</h3>
+                                <h3 class="sub-title mw-250">Email: <span class="title">Joethon@Joethon.dev</span></h3>
+                                <h3 class="sub-title  mw-250">Phone: <span class="title">0123456789</span></h3>
+                                <h3 class="sub-title  mw-250">Date Of Birth: <span class="title">03/11/2003</span></h3>
+                                <div class="  mw-250">
+                                    <input type="checkbox" id="check-1">
+                                    <label for="check-1"><div class="check"></div></label>
+                                </div>
+                            </div>
+                            <div class="w-info">
+                                <h3 class="sub-title mw-250">Job Information</h3>
+                                <h3 class="sub-title mw-250">Title: <span class="title">Full Stack Developer</span></h3>
+                                <h3 class="sub-title  mw-250">Programming Language: <span class="title">Python</span></h3>
+                                <h3 class="sub-title  mw-250">Years Of Experience: <span class="title">1</span></h3>
+                                <div class="mw-250">
+                                    <input type="checkbox" id="check-2">
+                                    <label for="check-2"><div class="check"></div></label>
+                                </div>
+                            </div>
+                            <div class="w-info">
+                                <h3 class="sub-title mw-250">Billing Information</h3>
+                                <h3 class="sub-title mw-250">Payment Method: <span class="title">Paypal</span></h3>
+                                <h3 class="sub-title  mw-250">Email: <span class="title">email@website.com</span></h3>
+                                <h3 class="sub-title  mw-250">Subscription: <span class="title">Monthly</span></h3>
+                                <div class="  mw-250">
+                                    <input type="checkbox" id="check-3">
+                                    <label for="check-3"><div class="check"></div></label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Profile info -->
+                </div>
+
+                <!-- Start Skills & Activities -->
+                <div class="flex-box">
+                    <div class="card skills pd-20">
+                        <h2 class="title mb-10">My Skills</h2>
+                        <h5 class="sub-title mb-20">Complete Skills List</h5>
+                        <div class="holder mb-20">
+                            <span class="btn-shape">HTML</span>
+                            <span class="btn-shape">Pugjs</span>
+                            <span class="btn-shape">HAML</span>
+                        </div>
+                        <div class="holder mb-20">
+                            <span class="btn-shape">CSS</span>
+                            <span class="btn-shape">SASS</span>
+                            <span class="btn-shape">Stylus</span>
+                        </div>
+                        <div class="holder mb-20">
+                            <span class="btn-shape">JavaScript</span>
+                            <span class="btn-shape">TypeScript</span>
+                        </div>
+                        <div class="holder mb-20">
+                            <span class="btn-shape">Vuejs</span>
+                            <span class="btn-shape">Reactjs</span>
+                        </div>
+                        <div class="holder mb-20">
+                            <span class="btn-shape">Jest</span>
+                            <span class="btn-shape">Jasmine</span>
+                        </div>
+                        <div class="holder mb-20">
+                            <span class="btn-shape">PHP</span>
+                            <span class="btn-shape">Laravel</span>
+                        </div>
+                        <div class="holder mb-20">
+                            <span class="btn-shape">Python</span>
+                            <span class="btn-shape">Django</span>
+                        </div>
+                    </div>
+
+                    <div class="card activities pd-20">
+                        <h2 class="title mb-10">Latest Activities</h2>
+                        <h5 class="sub-title mb-20">Latest Activities Done By The User</h5>
+                        <div class="img holder mb-20">
+                            <img src="imgs/activity-01.png" alt="">
+                            <div class="flex-box">
+                                <div class="text">
+                                    <h3 class="title">Store</h3>
+                                    <h3 class="sub-title">Bought The Mastering Python Course</h3>
+                                </div>
+                                <div class="text">
+                                    <h3 class="title">18:10</h3>
+                                    <h3 class="sub-title">Yesterday</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="img holder mb-20">
+                            <img src="imgs/activity-02.png" alt="">
+                            <div class="flex-box">
+                                <div class="text">
+                                    <h3 class="title">Academy</h3>
+                                    <h3 class="sub-title">Got The PHP Certificate</h3>
+                                </div>
+                                <div class="text">
+                                    <h3 class="title">16:05</h3>
+                                    <h3 class="sub-title">Yesterday</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="img holder mb-20">
+                            <img src="imgs/activity-03.png" alt="">
+                            <div class="flex-box">
+                                <div class="text">
+                                    <h3 class="title">Badges</h3>
+                                    <h3 class="sub-title">Unlocked The 10 Skills Badge</h3>
+                                </div>
+                                <div class="text">
+                                    <h3 class="title">18:05</h3>
+                                    <h3 class="sub-title">Yesterday</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="img holder">
+                            <img src="imgs/activity-01.png" alt="">
+                            <div class="flex-box">
+                                <div class="text">
+                                    <h3 class="title">Store</h3>
+                                    <h3 class="sub-title">Bought The Typescript Course</h3>
+                                </div>
+                                <div class="text">
+                                    <h3 class="title">12:05</h3>
+                                    <h3 class="sub-title">Yesterday</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Skills & Activities -->
+            </div>
+        </div>
+    </div>
+</body>
+</html>
